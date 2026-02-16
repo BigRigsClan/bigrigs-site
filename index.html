@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Big Rigs Clan</title>
+  <style>
+    :root{--gold:#f2c230;--black:#0b0b0b;--light:#f5f5f5;--maxw:1100px}
+    *{box-sizing:border-box}
+    body{margin:0;font-family:"Segoe UI",Roboto,Arial,sans-serif;background:var(--light);color:#222;line-height:1.6}
+
+    header{background:var(--black);padding:30px 20px;text-align:center;border-bottom:6px solid var(--gold)}
+    header img{max-width:420px;width:90%}
+
+    section{max-width:var(--maxw);margin:auto;padding:50px 20px}
+    h2{margin-top:0;border-left:6px solid var(--gold);padding-left:14px}
+
+    /* Social Buttons */
+    .socials{display:flex;flex-wrap:wrap;gap:14px;margin-top:20px}
+    .socials a{padding:12px 20px;background:var(--black);color:#fff;text-decoration:none;border-radius:6px;border:2px solid var(--gold)}
+    .socials a:hover{background:var(--gold);color:#000}
+
+    /* Buttons */
+    .btn{display:inline-block;padding:10px 18px;border:2px solid var(--gold);background:var(--black);color:#fff;text-decoration:none;border-radius:6px;margin-top:10px}
+    .btn:hover{background:var(--gold);color:#000}
+
+    /* Events */
+    .events{display:grid;gap:18px}
+    .event{background:#fff;border-left:6px solid var(--gold);padding:18px;border-radius:6px;box-shadow:0 3px 10px rgba(0,0,0,.08)}
+
+    /* Join */
+    .join{background:#fff;padding:25px;border-radius:6px;box-shadow:0 3px 10px rgba(0,0,0,.08)}
+
+    /* Downloads */
+    .downloads a{display:block;background:#fff;padding:14px;margin-bottom:10px;text-decoration:none;color:#000;border-left:6px solid var(--gold);border-radius:4px}
+
+    /* Spotlight */
+    .spotlight{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:20px}
+    .rig{background:#fff;border-radius:8px;overflow:hidden;box-shadow:0 4px 14px rgba(0,0,0,.12)}
+    .rig img{width:100%;height:200px;object-fit:cover}
+    .rig div{padding:15px}
+
+    /* Gallery */
+    .gallery{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:18px}
+    .gallery img{width:100%;height:220px;object-fit:cover;border-radius:8px}
+
+    footer{background:#111;color:#ddd;padding:40px 20px}
+    .footer-inner{max-width:var(--maxw);margin:auto}
+    .contact-btn{margin-top:15px}
+  </style>
+</head>
+<body>
+
+<header>
+  <img src="images/logo.png" alt="Big Rigs Clan Logo">
+</header>
+
+<section>
+  <h2>About Us</h2>
+  <p>
+    Welcome to Big Rigs Clan — a group of passionate converted bus and coach owners who live and breathe the heavy vehicle lifestyle.
+    Our members share builds, attend rallies, travel together, and support each other’s projects while preserving and showcasing these
+    unique rigs across the country.
+  </p>
+  <p>
+    Whether you're fully converted, mid‑build, or simply love the lifestyle and community, Big Rigs Clan is about friendship, knowledge‑sharing,
+    and getting out on the road together.
+  </p>
+</section>
+
+<section>
+  <h2>Follow Us</h2>
+  <div class="socials">
+    <!-- Replace # with your real links -->
+    <a href="#">Facebook</a>
+    <a href="#">Instagram</a>
+    <a href="#">YouTube</a>
+    <a href="#">Email Updates</a>
+  </div>
+</section>
+
+<section>
+  <h2>Upcoming Events & Rallies</h2>
+  <div class="events">
+    <div class="event">
+      <strong>Autumn Muster</strong><br>
+      Date: 12–15 April 2026<br>
+      Location: Example Showgrounds<br>
+      Details: Casual meet, show & shine, shared meals.
+    </div>
+
+    <div class="event">
+      <strong>Winter Run</strong><br>
+      Date: 20 July 2026<br>
+      Location: Scenic Route Cruise
+    </div>
+  </div>
+</section>
+
+<section>
+  <h2>Join Us</h2>
+  <div class="join">
+    <p><strong>Interested in becoming a financial member of Big Rigs Clan? We'd love to have you.</strong></p>
+
+    <p>
+      <strong>Membership Includes:</strong><br>
+      • Access to club rallies and events<br>
+      • Member support network<br>
+      • Club updates and newsletters<br>
+      • Participation in shows and displays
+    </p>
+
+    <p><strong>Annual Membership Fee:</strong> $XX (edit as required)</p>
+
+    <a class="btn" href="downloads/membership-form.pdf">Download Membership Form</a>
+  </div>
+</section>
+
+<section>
+  <h2>Downloads & Newsletters</h2>
+  <div class="downloads">
+    <a href="downloads/newsletter-april-2026.pdf">April 2026 Newsletter</a>
+    <a href="downloads/club-rules.pdf">Club Information & Guidelines</a>
+  </div>
+</section>
+
+<section>
+  <h2>Member Rigs Spotlight</h2>
+  <div class="spotlight">
+    <div class="rig">
+      <img src="images/rig1.jpg" alt="Member Rig">
+      <div>
+        <strong>Owner:</strong> Member Name<br>
+        <strong>Vehicle:</strong> Converted Coach Model
+        <p>Short story about the build and travels.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section>
+  <h2>Gallery</h2>
+  <div class="gallery">
+    <img src="images/photo1.jpg" alt="Gallery Image">
+    <img src="images/photo2.jpg" alt="Gallery Image">
+    <img src="images/photo3.jpg" alt="Gallery Image">
+  </div>
+</section>
+
+<footer>
+  <div class="footer-inner">
+    <strong>Big Rigs Clan</strong><br>
+    "When Size Matters"<br><br>
+
+    President: Darren Canfield — bigrigsclan.president@gmail.com<br>
+    Secretary: Carol Hugh — bigrigsclan.secretary@gmail.com<br>
+    Treasurer: Kelly Cull — bigrigsclan.treasurer@gmail.com
+
+    <div class="contact-btn">
+      <!-- This opens an email WITHOUT showing address on page -->
+      <a class="btn" href="mailto:bigrigsclan.secretary@gmail.com?subject=Big%20Rigs%20Clan%20Enquiry">Contact Us</a>
+    </div>
+  </div>
+</footer>
+
+</body>
+</html>
